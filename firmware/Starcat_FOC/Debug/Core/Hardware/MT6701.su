@@ -1,0 +1,3 @@
+../Core/Hardware/MT6701.c:38:6:MT6701_Init	16	static
+../Core/Hardware/MT6701.c:47:7:MT6701_GetAngle_ALL	24	static
+../Core/Hardware/MT6701.c:66:7:MT6701_ReadDataSSI	32	static

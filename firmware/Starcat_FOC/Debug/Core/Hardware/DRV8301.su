@@ -1,0 +1,12 @@
+../Core/Hardware/DRV8301.c:13:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Hardware/DRV8301.c:91:6:DRV8301_Init	16	static
+../Core/Hardware/DRV8301.c:171:5:DRV8301_Check_Fault	16	static
+../Core/Hardware/DRV8301.c:183:5:DRV8301_Read_Protect	24	static
+../Core/Hardware/DRV8301.c:312:10:DRV8301_SPI_ReadWrite	24	static
+../Core/Hardware/DRV8301.c:420:6:DRV8301_EN	16	static
+../Core/Hardware/DRV8301.c:435:6:DRV8301_GATE_RESET	24	static
+../Core/Hardware/DRV8301.c:451:6:DRV8301_DC_CAL	24	static
+../Core/Hardware/DRV8301.c:469:6:DRV8301_Set_OC	24	static
+../Core/Hardware/DRV8301.c:480:6:DRV8301_Set_Gain	24	static
+../Core/Hardware/DRV8301.c:513:6:DRV8301_GATE_CURRENT	24	static
+../Core/Hardware/DRV8301.c:535:6:DRV8301_PWM_Mode	24	static

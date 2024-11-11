@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	1
+../Core/Hardware/connect.c:15:6:Connect_Init	1
+../Core/Hardware/connect.c:23:6:printBinary	2
+../Core/Hardware/connect.c:31:6:printBinary_8	2
+../Core/Hardware/connect.c:40:6:restartDMA	1
+../Core/Hardware/connect.c:47:6:HAL_UARTEx_RxEventCallback	2
+../Core/Hardware/connect.c:68:6:processSerialData	20
+../Core/Hardware/connect.c:200:6:vofa_JustFloat_output	1
+../Core/Hardware/connect.c:220:1:__io_putchar	1
+E:\stm32cubeide_cdh\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdio.h:222:5:fgetc	1

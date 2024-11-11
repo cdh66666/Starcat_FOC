@@ -1,0 +1,5 @@
+../Core/Hardware/flash.c:5:5:calculateSectorNumber	2
+../Core/Hardware/flash.c:18:6:clear_Data	1
+../Core/Hardware/flash.c:26:6:writeMultipleDataToFlash	3
+../Core/Hardware/flash.c:69:6:readMultipleDataFromFlash	3
+../Core/Hardware/flash.c:94:5:isDataStoredInFlash	4

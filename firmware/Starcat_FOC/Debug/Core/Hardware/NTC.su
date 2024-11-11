@@ -1,0 +1,3 @@
+../Core/Hardware/NTC.c:29:7:Get_Temp	24	static
+../Core/Hardware/NTC.c:46:6:generateLookupTable	40	static
+../Core/Hardware/NTC.c:88:7:getTemperatureFromTable	32	static
