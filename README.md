@@ -4,7 +4,22 @@
 # hardware
 
 - PCB电路板采用嘉立创专业版制作，.epro工程文件已存放在hardware里，嘉立创EDA->文件->导入->专业版即可导入！
-- 放了PCB的布线布局图和实物图。
+
+- PCB正面图
+
+  ![PCB正面图](https://github.com/cdh66666/Starcat_FOC/blob/main/hardware/PCB-3d%E6%AD%A3%E9%9D%A2.png)
+
+- PCB背面图
+
+  ![PCB背面图](https://github.com/cdh66666/Starcat_FOC/blob/main/hardware/PCB-3d%E8%83%8C%E9%9D%A2.png)
+
+- 布线正面
+
+![布线正面](https://github.com/cdh66666/Starcat_FOC/blob/main/hardware/PCB%E6%AD%A3%E9%9D%A2.png)
+
+- 布线背面
+
+![布线背面](https://github.com/cdh66666/Starcat_FOC/blob/main/hardware/PCB%E8%83%8C%E9%9D%A2.png)
 
 # firmware
 
