@@ -1,0 +1,9 @@
+.\f103-foc\svpwm.o: ..\User\Framework\Svpwm.c
+.\f103-foc\svpwm.o: ..\User\Framework\Svpwm.h
+.\f103-foc\svpwm.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\svpwm.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\svpwm.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\svpwm.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\f103-foc\svpwm.o: ../User/RTT/SEGGER_RTT_Conf.h
+.\f103-foc\svpwm.o: ../User/RTT/SEGGER_RTT.h
+.\f103-foc\svpwm.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdio.h

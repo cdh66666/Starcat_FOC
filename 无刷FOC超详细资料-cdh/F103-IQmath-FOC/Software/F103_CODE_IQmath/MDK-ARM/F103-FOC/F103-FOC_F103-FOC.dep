@@ -1,0 +1,1711 @@
+Dependencies for Project 'F103-FOC', Target 'F103-FOC': (DO NOT MODIFY !)
+F (..\User\APP\APPMain.c)(0x62A56377)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\appmain.o --omf_browse .\f103-foc\appmain.crf --depend .\f103-foc\appmain.d)
+I (..\User\APP\APPMain.h)(0x62A56272)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/PeripheralsDriver/PerDriverMain.h)(0x60CEE22C)
+I (../User/MCUDriver/MCUDriverMain.h)(0x62A561B1)
+I (../User/Function/FunctionMain.h)(0x60CEE22C)
+I (../User/MCUDriver/Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+F (..\User\MCUDriver\MCUDriverMain.c)(0x62A5609F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\mcudrivermain.o --omf_browse .\f103-foc\mcudrivermain.crf --depend .\f103-foc\mcudrivermain.d)
+I (..\User\MCUDriver\MCUDriverMain.h)(0x62A561B1)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\User\MCUDriver\Motor1TIM1PWM.h)(0x62A56115)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\User\MCUDriver\Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\MCUDriver\Motor1ADC1.c)(0x631EF49C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\motor1adc1.o --omf_browse .\f103-foc\motor1adc1.crf --depend .\f103-foc\motor1adc1.d)
+I (..\User\MCUDriver\Motor1ADC1.h)(0x62A566D5)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/FocFramework/FocMath.h)(0x62A87D18)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../Core/Inc/adc.h)(0x62786B0A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../User/RTT/SEGGER_RTT.h)(0x60CEE22C)
+I (../User/RTT/SEGGER_RTT_Conf.h)(0x60CEE22C)
+F (..\User\MCUDriver\Motor1GPIO.c)(0x62A56210)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\motor1gpio.o --omf_browse .\f103-foc\motor1gpio.crf --depend .\f103-foc\motor1gpio.d)
+I (..\User\MCUDriver\Motor1GPIO.h)(0x62A56680)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\MCUDriver\Motor1SPI1.c)(0x62A56A19)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\motor1spi1.o --omf_browse .\f103-foc\motor1spi1.crf --depend .\f103-foc\motor1spi1.d)
+I (..\User\MCUDriver\Motor1SPI1.h)(0x62A55BD8)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\MCUDriver\Motor1TIM1Pwm.c)(0x62A56117)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\motor1tim1pwm.o --omf_browse .\f103-foc\motor1tim1pwm.crf --depend .\f103-foc\motor1tim1pwm.d)
+I (..\User\MCUDriver\Motor1TIM1Pwm.h)(0x62A56115)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\User\MCUDriver\Motor1GPIO.h)(0x62A56680)
+I (../Core/Inc/tim.h)(0x62786B0B)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\MCUDriver\Timer.c)(0x60CEE22C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\timer.o --omf_browse .\f103-foc\timer.crf --depend .\f103-foc\timer.d)
+I (..\User\MCUDriver\Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\PeripheralsDriver\PerDriverMain.c)(0x631EF567)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\perdrivermain.o --omf_browse .\f103-foc\perdrivermain.crf --depend .\f103-foc\perdrivermain.d)
+I (..\User\PeripheralsDriver\PerDriverMain.h)(0x60CEE22C)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../User/MCUDriver/Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (..\User\PeripheralsDriver\TouchDriver.h)(0x62A55D96)
+I (..\User\PeripheralsDriver\LedDriver.h)(0x629C0A36)
+I (..\User\PeripheralsDriver\SysManage.h)(0x629C7A89)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\User\PeripheralsDriver\SDS.h)(0x543C8F26)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+F (..\User\PeripheralsDriver\TouchDriver.c)(0x62A55D9C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\touchdriver.o --omf_browse .\f103-foc\touchdriver.crf --depend .\f103-foc\touchdriver.d)
+I (..\User\PeripheralsDriver\TouchDriver.h)(0x62A55D96)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\PeripheralsDriver\LedDriver.c)(0x629C8E81)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\leddriver.o --omf_browse .\f103-foc\leddriver.crf --depend .\f103-foc\leddriver.d)
+I (..\User\PeripheralsDriver\LedDriver.h)(0x629C0A36)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (..\User\PeripheralsDriver\SysManage.h)(0x629C7A89)
+F (..\User\PeripheralsDriver\SysManage.c)(0x62A4ABBE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\sysmanage.o --omf_browse .\f103-foc\sysmanage.crf --depend .\f103-foc\sysmanage.d)
+I (..\User\PeripheralsDriver\SysManage.h)(0x629C7A89)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../Core/Inc/tim.h)(0x62786B0B)
+F (..\User\PeripheralsDriver\SDS.c)(0x62863D64)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\sds.o --omf_browse .\f103-foc\sds.crf --depend .\f103-foc\sds.d)
+I (..\User\PeripheralsDriver\SDS.h)(0x543C8F26)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (..\User\Function\AngleCalibrationFunc.c)(0x62A562D8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\anglecalibrationfunc.o --omf_browse .\f103-foc\anglecalibrationfunc.crf --depend .\f103-foc\anglecalibrationfunc.d)
+I (..\User\Function\AngleCalibrationFunc.h)(0x60CEE22C)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../User/MCUDriver/Motor1GPIO.h)(0x62A56680)
+I (../User/FocFramework/AngleEncoder.h)(0x62FCADDA)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/MCUDriver/Motor1TIM1PWM.h)(0x62A56115)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../User/RTT/SEGGER_RTT.h)(0x60CEE22C)
+I (../User/RTT/SEGGER_RTT_Conf.h)(0x60CEE22C)
+F (..\User\Function\FunctionMain.c)(0x631EF2F8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\functionmain.o --omf_browse .\f103-foc\functionmain.crf --depend .\f103-foc\functionmain.d)
+I (..\User\Function\FunctionMain.h)(0x60CEE22C)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (..\User\Function\AngleCalibrationFunc.h)(0x60CEE22C)
+I (../User/MCUDriver/Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (..\User\Function\UartBus.h)(0x62A565E3)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (..\User\Function\CanBus.h)(0x62A5663C)
+I (../Core/Inc/can.h)(0x6294E1CB)
+I (../User/PeripheralsDriver/SysManage.h)(0x629C7A89)
+I (..\User\Function\StartupMusic.h)(0x629C34ED)
+F (..\User\Function\CanBus.c)(0x62A7303D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\canbus.o --omf_browse .\f103-foc\canbus.crf --depend .\f103-foc\canbus.d)
+I (..\User\Function\CanBus.h)(0x62A5663C)
+I (../Core/Inc/can.h)(0x6294E1CB)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (..\User\Function\UartBus.c)(0x62FCB184)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\uartbus.o --omf_browse .\f103-foc\uartbus.crf --depend .\f103-foc\uartbus.d)
+I (..\User\Function\UartBus.h)(0x62A565E3)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (../User/FocFramework/AngleEncoder.h)(0x62FCADDA)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+F (..\User\Function\StartupMusic.c)(0x62A544A8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\startupmusic.o --omf_browse .\f103-foc\startupmusic.crf --depend .\f103-foc\startupmusic.d)
+I (..\User\Function\StartupMusic.h)(0x629C34ED)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../User/MCUDriver/Motor1TIM1Pwm.h)(0x62A56115)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+F (..\User\FocControl\FocControl.c)(0x631EF4C7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\foccontrol.o --omf_browse .\f103-foc\foccontrol.crf --depend .\f103-foc\foccontrol.d)
+I (..\User\FocControl\FocControl.h)(0x62A8A220)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocFramework/FocMath.h)(0x62A87D18)
+I (../User/FocFramework/AngleEncoder.h)(0x62FCADDA)
+I (../User/FocFramework/FocSVPWM.h)(0x62A56073)
+I (../User/MCUDriver/Motor1GPIO.h)(0x62A56680)
+I (../User/PeripheralsDriver/SysManage.h)(0x629C7A89)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../User/RTT/SEGGER_RTT.h)(0x60CEE22C)
+I (../User/RTT/SEGGER_RTT_Conf.h)(0x60CEE22C)
+F (..\User\FocFramework\FocMath.c)(0x631DE415)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\focmath.o --omf_browse .\f103-foc\focmath.crf --depend .\f103-foc\focmath.d)
+I (..\User\FocFramework\FocMath.h)(0x62A87D18)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../User/MCUDriver/Motor1ADC1.h)(0x62A566D5)
+I (..\User\FocFramework\FocSVPWM.h)(0x62A56073)
+I (..\User\FocFramework\AngleEncoder.h)(0x62FCADDA)
+F (..\User\FocFramework\AngleEncoder.c)(0x62FCADCF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\angleencoder.o --omf_browse .\f103-foc\angleencoder.crf --depend .\f103-foc\angleencoder.d)
+I (..\User\FocFramework\AngleEncoder.h)(0x62FCADDA)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/MCUDriver/Motor1SPI1.h)(0x62A55BD8)
+I (../User/MCUDriver/Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (../User/RTT/SEGGER_RTT.h)(0x60CEE22C)
+I (../User/RTT/SEGGER_RTT_Conf.h)(0x60CEE22C)
+F (..\User\FocFramework\FocSVPWM.c)(0x62A56E60)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\focsvpwm.o --omf_browse .\f103-foc\focsvpwm.crf --depend .\f103-foc\focsvpwm.d)
+I (..\User\FocFramework\FocSVPWM.h)(0x62A56073)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (..\User\FocFramework\FocMath.h)(0x62A87D18)
+I (../User/MCUDriver/Motor1TIM1Pwm.h)(0x62A56115)
+F (..\User\IQmath\rvmdk-cm3\IQmathLib-cm3.lib)(0x51626C52)()
+F (..\User\IQmath\IQmathLib.h)(0x628F9909)()
+F (..\User\RTT\SEGGER_RTT.c)(0x60CEE22C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\segger_rtt.o --omf_browse .\f103-foc\segger_rtt.crf --depend .\f103-foc\segger_rtt.d)
+I (..\User\RTT\SEGGER_RTT_Conf.h)(0x60CEE22C)
+I (..\User\RTT\SEGGER_RTT.h)(0x60CEE22C)
+I (D:\Keil_MDK\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (..\User\RTT\SEGGER_RTT_printf.c)(0x60CEE22C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\segger_rtt_printf.o --omf_browse .\f103-foc\segger_rtt_printf.crf --depend .\f103-foc\segger_rtt_printf.d)
+I (..\User\RTT\SEGGER_RTT.h)(0x60CEE22C)
+I (..\User\RTT\SEGGER_RTT_Conf.h)(0x60CEE22C)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+F (../Core/Src/main.c)(0x6294E1CD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\main.o --omf_browse .\f103-foc\main.crf --depend .\f103-foc\main.d)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../Core/Inc/adc.h)(0x62786B0A)
+I (../Core/Inc/can.h)(0x6294E1CB)
+I (../Core/Inc/dma.h)(0x62786B0A)
+I (../Core/Inc/spi.h)(0x62786B0A)
+I (../Core/Inc/tim.h)(0x62786B0B)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (../Core/Inc/gpio.h)(0x62786B09)
+I (../User/APP/APPMain.h)(0x62A56272)
+F (../Core/Src/gpio.c)(0x627FD250)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\gpio.o --omf_browse .\f103-foc\gpio.crf --depend .\f103-foc\gpio.d)
+I (../Core/Inc/gpio.h)(0x62786B09)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/adc.c)(0x62A4AEEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\adc.o --omf_browse .\f103-foc\adc.crf --depend .\f103-foc\adc.d)
+I (../Core/Inc/adc.h)(0x62786B0A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/can.c)(0x62A73251)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\can.o --omf_browse .\f103-foc\can.crf --depend .\f103-foc\can.d)
+I (../Core/Inc/can.h)(0x6294E1CB)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/dma.c)(0x6296BABD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\dma.o --omf_browse .\f103-foc\dma.crf --depend .\f103-foc\dma.d)
+I (../Core/Inc/dma.h)(0x62786B0A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/spi.c)(0x629F6CE5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\spi.o --omf_browse .\f103-foc\spi.crf --depend .\f103-foc\spi.d)
+I (../Core/Inc/spi.h)(0x62786B0A)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/tim.c)(0x6289FED4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\tim.o --omf_browse .\f103-foc\tim.crf --depend .\f103-foc\tim.d)
+I (../Core/Inc/tim.h)(0x62786B0B)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/usart.c)(0x6296D7D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\usart.o --omf_browse .\f103-foc\usart.crf --depend .\f103-foc\usart.d)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/stm32f1xx_it.c)(0x631DE18C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_it.o --omf_browse .\f103-foc\stm32f1xx_it.crf --depend .\f103-foc\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_it.h)(0x62A73252)
+I (../User/MCUDriver/Timer.h)(0x627E5250)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (../User/MCUDriver/Motor1ADC1.h)(0x62A566D5)
+I (../User/FocFramework/FocMath.h)(0x62A87D18)
+I (../User/IQmath/IQmathLib.h)(0x628F9909)
+I (D:\Keil_MDK\ARM\ARMCC\include\limits.h)(0x569DEA3A)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (../User/FocControl/FocControl.h)(0x62A8A220)
+I (../Core/Inc/usart.h)(0x6296D7CE)
+I (../User/Function/UartBus.h)(0x62A565E3)
+I (D:\Keil_MDK\ARM\ARMCC\include\string.h)(0x569DEA3A)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6296BABE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_msp.o --omf_browse .\f103-foc\stm32f1xx_hal_msp.crf --depend .\f103-foc\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x62786B0C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (startup_stm32f103xb.s)(0x62A73254)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o .\f103-foc\startup_stm32f103xb.o --depend .\f103-foc\startup_stm32f103xb.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_gpio_ex.o --omf_browse .\f103-foc\stm32f1xx_hal_gpio_ex.crf --depend .\f103-foc\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_adc.o --omf_browse .\f103-foc\stm32f1xx_hal_adc.crf --depend .\f103-foc\stm32f1xx_hal_adc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_adc_ex.o --omf_browse .\f103-foc\stm32f1xx_hal_adc_ex.crf --depend .\f103-foc\stm32f1xx_hal_adc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal.o --omf_browse .\f103-foc\stm32f1xx_hal.crf --depend .\f103-foc\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_rcc.o --omf_browse .\f103-foc\stm32f1xx_hal_rcc.crf --depend .\f103-foc\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_rcc_ex.o --omf_browse .\f103-foc\stm32f1xx_hal_rcc_ex.crf --depend .\f103-foc\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_gpio.o --omf_browse .\f103-foc\stm32f1xx_hal_gpio.crf --depend .\f103-foc\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_dma.o --omf_browse .\f103-foc\stm32f1xx_hal_dma.crf --depend .\f103-foc\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_cortex.o --omf_browse .\f103-foc\stm32f1xx_hal_cortex.crf --depend .\f103-foc\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_pwr.o --omf_browse .\f103-foc\stm32f1xx_hal_pwr.crf --depend .\f103-foc\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_flash.o --omf_browse .\f103-foc\stm32f1xx_hal_flash.crf --depend .\f103-foc\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_flash_ex.o --omf_browse .\f103-foc\stm32f1xx_hal_flash_ex.crf --depend .\f103-foc\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_exti.o --omf_browse .\f103-foc\stm32f1xx_hal_exti.crf --depend .\f103-foc\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_can.o --omf_browse .\f103-foc\stm32f1xx_hal_can.crf --depend .\f103-foc\stm32f1xx_hal_can.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_spi.o --omf_browse .\f103-foc\stm32f1xx_hal_spi.crf --depend .\f103-foc\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_tim.o --omf_browse .\f103-foc\stm32f1xx_hal_tim.crf --depend .\f103-foc\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_tim_ex.o --omf_browse .\f103-foc\stm32f1xx_hal_tim_ex.crf --depend .\f103-foc\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x61BEFF16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\stm32f1xx_hal_uart.o --omf_browse .\f103-foc\stm32f1xx_hal_uart.crf --depend .\f103-foc\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (../Core/Src/system_stm32f1xx.c)(0x61C478A3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/APP -I ../User/Function -I ../User/PeripheralsDriver -I ../User/MCUDriver -I ../User/RTT -I ../User/IQmath -I ../User/IQmath/rvmdk-cm3 -I ../User/FocControl -I ../User/FocFramework-I D:\Desktop\F103-IQmath-FOC\Software\F103_CODE_IQmath\MDK-ARM\RTE-I D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB -DARM_MATH_CM3-o .\f103-foc\system_stm32f1xx.o --omf_browse .\f103-foc\system_stm32f1xx.crf --depend .\f103-foc\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x61BEFF16)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61BEFF0D)
+I (D:\Keil_MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61BEFF0D)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61BEFF16)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62A73252)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61BEFF16)
+I (D:\Keil_MDK\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61BEFF16)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61BEFF16)
+F (D:\Keil_MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM3l_math.lib)(0x56283F70)()

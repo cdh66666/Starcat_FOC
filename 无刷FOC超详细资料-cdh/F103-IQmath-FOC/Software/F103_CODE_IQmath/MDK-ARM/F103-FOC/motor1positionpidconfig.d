@@ -1,0 +1,9 @@
+.\f103-foc\motor1positionpidconfig.o: ..\User\PeripheralsDriver\Motor1PositionPIDConfig.c
+.\f103-foc\motor1positionpidconfig.o: ..\User\PeripheralsDriver\Motor1PositionPIDConfig.h
+.\f103-foc\motor1positionpidconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\motor1positionpidconfig.o: ../User/Framework/PositionPID.h
+.\f103-foc\motor1positionpidconfig.o: ..\User\PeripheralsDriver\Motor1SpeedPIDConfig.h
+.\f103-foc\motor1positionpidconfig.o: ..\User\PeripheralsDriver\Motor1FOCConfig.h
+.\f103-foc\motor1positionpidconfig.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\motor1positionpidconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\motor1positionpidconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h

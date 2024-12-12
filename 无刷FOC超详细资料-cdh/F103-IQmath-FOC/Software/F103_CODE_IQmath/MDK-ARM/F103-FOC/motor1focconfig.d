@@ -1,0 +1,11 @@
+.\f103-foc\motor1focconfig.o: ..\User\PeripheralsDriver\Motor1FOCConfig.c
+.\f103-foc\motor1focconfig.o: ..\User\PeripheralsDriver\Motor1FOCConfig.h
+.\f103-foc\motor1focconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\motor1focconfig.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\motor1focconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\motor1focconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\f103-foc\motor1focconfig.o: ../User/Framework/Foc.h
+.\f103-foc\motor1focconfig.o: ../User/MCUDriver/Motor1GPIO.h
+.\f103-foc\motor1focconfig.o: ..\User\PeripheralsDriver\Motor1SvpwmConfig.h
+.\f103-foc\motor1focconfig.o: ..\User\PeripheralsDriver\Motor1TLE5012BConfig.h
+.\f103-foc\motor1focconfig.o: ../User/MCUDriver/Motor1ADC1.h

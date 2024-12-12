@@ -1,0 +1,11 @@
+.\f103-foc\motor1svpwmconfig.o: ..\User\PeripheralsDriver\Motor1SvpwmConfig.c
+.\f103-foc\motor1svpwmconfig.o: ..\User\PeripheralsDriver\Motor1SvpwmConfig.h
+.\f103-foc\motor1svpwmconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\motor1svpwmconfig.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\motor1svpwmconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\motor1svpwmconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\f103-foc\motor1svpwmconfig.o: ../User/Framework/Svpwm.h
+.\f103-foc\motor1svpwmconfig.o: ../User/MCUDriver/Motor1TIM1PWM.h
+.\f103-foc\motor1svpwmconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\f103-foc\motor1svpwmconfig.o: ../User/RTT/SEGGER_RTT.h
+.\f103-foc\motor1svpwmconfig.o: ../User/RTT/SEGGER_RTT_Conf.h

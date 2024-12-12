@@ -1,0 +1,10 @@
+.\f103-foc\motor1tle5012bconfig.o: ..\User\PeripheralsDriver\Motor1TLE5012BConfig.c
+.\f103-foc\motor1tle5012bconfig.o: ..\User\PeripheralsDriver\Motor1TLE5012BConfig.h
+.\f103-foc\motor1tle5012bconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\motor1tle5012bconfig.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\motor1tle5012bconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\motor1tle5012bconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\f103-foc\motor1tle5012bconfig.o: ../User/Framework/TLE5012B.h
+.\f103-foc\motor1tle5012bconfig.o: ../User/MCUDriver/Motor1SPI1.h
+.\f103-foc\motor1tle5012bconfig.o: ../User/MCUDriver/timer.h
+.\f103-foc\motor1tle5012bconfig.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h

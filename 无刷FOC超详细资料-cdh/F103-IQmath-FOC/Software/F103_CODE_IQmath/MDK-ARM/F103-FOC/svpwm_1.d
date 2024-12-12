@@ -1,0 +1,9 @@
+.\f103-foc\svpwm_1.o: ..\User\FocFramework\SVPWM.c
+.\f103-foc\svpwm_1.o: ..\User\FocFramework\SVPWM.h
+.\f103-foc\svpwm_1.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\f103-foc\svpwm_1.o: ../User/IQmath/IQmathLib.h
+.\f103-foc\svpwm_1.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\limits.h
+.\f103-foc\svpwm_1.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\f103-foc\svpwm_1.o: ..\User\FocControl\FocControl.h
+.\f103-foc\svpwm_1.o: ..\User\FocFramework\FocMath.h
+.\f103-foc\svpwm_1.o: ../User/MCUDriver/Motor1TIM1Pwm.h
